@@ -1,0 +1,7 @@
+group,merchants,n_obs_m3,retained_m3,n_obs_m6,retained_m6
+customer_care,103,103,0.893,97,0.732
+marketing,153,153,0.471,145,0.262
+transactional,272,272,0.842,262,0.729
+trial (<=10 msgs),70,70,0.014,66,0.061
+multi_use_case=False,72,72,0.764,65,0.662
+multi_use_case=True,456,456,0.741,439,0.585

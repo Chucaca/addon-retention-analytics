@@ -1,0 +1,8 @@
+reason,churn_events,share,addressable,lever,avg_monthly_spend_before
+store_stopped_selling,17,0.044,no,none (exogenous),94.235
+core_subscription_expired,7,0.018,no,core-product renewal team,102.143
+trial_only,54,0.14,partly,onboarding: first-campaign wizard,4.389
+balance_depleted,162,0.421,yes,low-balance top-up nudges / auto top-up,117.981
+config_errors,30,0.078,yes,config-error alerting + guided template fix,55.2
+usage_decay,40,0.104,partly,re-engagement / use-case expansion,30.4
+unexplained,75,0.195,unknown,survey / qualitative follow-up,72.08

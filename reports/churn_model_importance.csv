@@ -1,0 +1,15 @@
+feature,importance,std
+send_days,0.1226,0.0174
+log_balance,0.085,0.0044
+trend_ratio,0.0221,0.0033
+log_msgs,0.0196,0.0044
+config_err_rate,0.0181,0.0012
+log_lifetime_msgs,0.007,0.0029
+n_paid_topups,0.004,0.0013
+days_since_topup,0.004,0.0034
+pos_trend,0.003,0.0018
+tenure_months,0.0005,0.0009
+is_chain,-0.0007,0.0012
+config_err_rate_prev,-0.0008,0.0007
+runway_months,-0.001,0.0011
+user_err_rate,-0.0012,0.0011

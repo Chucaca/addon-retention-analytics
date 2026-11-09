@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# regenerated synthetic data (python -m addon_analytics.cli all)
+data/

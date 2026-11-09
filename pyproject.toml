@@ -1,0 +1,11 @@
+[project]
+name = "addon-retention-analytics"
+version = "0.1.0"
+description = "Habits, retention, churn attribution and lookalike targeting for a prepaid messaging add-on (synthetic data)"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning"]

@@ -1,0 +1,89 @@
+{
+  "n_merchants": 180000,
+  "n_adopters": 600,
+  "adoption_rate": 0.0033333333333333335,
+  "segments": {
+    "S1": 123,
+    "S2": 26,
+    "S3": 102,
+    "S4": 68,
+    "S0": 281
+  },
+  "s1_msgs": 299.6666666666667,
+  "s4_msgs": 6.666666666666667,
+  "s1_topup": 0.9512195121951219,
+  "s3_topup": 0.5098039215686274,
+  "s4_topup": 0.22058823529411764,
+  "active_any_last": 267,
+  "active_real_last": 231,
+  "churn_any_avg12": 0.10677248462356352,
+  "churn_real_avg12": 0.11844221426408175,
+  "react_share_any": 0.041689522764673616,
+  "churn_events": 385,
+  "panel_rows": 4795,
+  "monthly_churn_rate": 0.08029197080291971,
+  "share_direct": 0.49870129870129865,
+  "share_broad": 0.7428571428571429,
+  "share_exogenous": 0.06233766233766234,
+  "share_unexplained": 0.19480519480519481,
+  "recent_months": "2023-11 .. 2024-10",
+  "sized": {
+    "balance_depleted": {
+      "events_12m": 121,
+      "recovery_assumption": 0.3,
+      "merchants_saved": 36.3,
+      "credits_saved_per_year": 54061.2
+    },
+    "config_errors": {
+      "events_12m": 23,
+      "recovery_assumption": 0.5,
+      "merchants_saved": 11.5,
+      "credits_saved_per_year": 5441.999999999999
+    }
+  },
+  "attr_acc_with_event": 0.8658536585365854,
+  "n_with_event": 328,
+  "no_event_share": 0.14805194805194805,
+  "no_event_reasons": {
+    "unexplained": 39,
+    "trial_only": 16,
+    "usage_decay": 2
+  },
+  "ml": {
+    "train_rows": 2829,
+    "test_rows": 1966,
+    "test_from": "2024-05",
+    "train_churn_rate": 0.08554259455638034,
+    "test_churn_rate": 0.07273652085452696,
+    "auc_logit": 0.884740054240877,
+    "auc_gbm": 0.9098945486767758
+  },
+  "rules": {
+    "min_users_B": 3,
+    "min_invoices_B": 100,
+    "min_employees_C": 3,
+    "min_invoices_C": 30,
+    "service_industries": [
+      "beauty_spa",
+      "clinic_dental",
+      "education_center",
+      "pet_services"
+    ]
+  },
+  "use_cases": {
+    "A": "transactional",
+    "B": "marketing",
+    "C": "customer_care"
+  },
+  "cov_abc": {
+    "base_selected": 30909.0,
+    "base_share": 0.17229096989966555,
+    "seed_recall": 0.7689243027888446,
+    "recall_S1": 0.943089430894309,
+    "recall_S2": 0.7307692307692307,
+    "recall_S3": 0.5686274509803921,
+    "concentration": 4.462940241363962
+  },
+  "n_targets": 30909,
+  "sql_check": "skipped (No module named 'duckdb')"
+}

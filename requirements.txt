@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+pytest>=7
+# optional
+# pyarrow       # parquet export of the synthetic data (data/, git-ignored)
+# statsmodels   # extra z-test cross-check in tests
+# duckdb        # runs sql/segmentation.sql against the pandas result

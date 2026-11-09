@@ -1,0 +1,5 @@
+segment,merchants,median_msgs_per_month,median_send_days,topup_rate,median_topup_amount,topups_per_topping_merchant,mean_send_hour,weekend_share,share_customer_care,share_marketing,share_test,share_transactional
+S1,123,299.667,72.0,0.951,500.0,1.513,13.987,0.23,0.196,0.111,0.031,0.662
+S2,26,214.833,12.5,0.885,500.0,1.304,15.909,0.209,0.159,0.493,0.032,0.316
+S3,102,19.667,21.0,0.51,100.0,1.173,14.249,0.216,0.289,0.257,0.036,0.417
+S4,68,6.667,5.0,0.221,300.0,1.0,14.797,0.202,0.171,0.308,0.035,0.486

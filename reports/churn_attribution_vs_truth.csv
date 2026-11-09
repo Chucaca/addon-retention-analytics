@@ -1,0 +1,8 @@
+reason,balance_depleted,config_errors,no_stop_event,store_closed,subscription_expired,trial_only,unexplained,usage_decay
+balance_depleted,156,2,0,0,0,0,2,2
+config_errors,0,29,0,0,0,0,1,0
+core_subscription_expired,0,0,0,0,7,0,0,0
+store_stopped_selling,1,0,0,15,0,0,1,0
+trial_only,0,4,16,0,2,28,3,1
+unexplained,0,1,39,0,0,0,32,3
+usage_decay,0,0,2,0,0,0,21,17
